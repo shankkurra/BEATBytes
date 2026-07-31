@@ -489,9 +489,9 @@ function renderCode(){
   el('content').innerHTML=`<div class="eyebrow">Code</div><h1 style="margin:6px 0 4px">Under the hood</h1>
   <div class="card prose">
     <h3>Where the code lives</h3>
-    <p>This entire dashboard is one self-contained HTML file, hosted from the desk's GitHub repository: <a href="https://github.com/shankkurra/BEATBytes" target="_blank" rel="noopener">github.com/shankkurra/BEATBytes</a>. The file is <span class="kbd">index.html</span> \u2014 everything (data, design, logic) is inside it.</p>
+    <p>This entire dashboard is one self-contained HTML page, hosted from the desk's GitHub repository: <a href="https://github.com/shankkurra/BEATBytes" target="_blank" rel="noopener">github.com/shankkurra/BEATBytes</a>. The file is <span class="kbd">BEATBytes.html</span> — the single copy that serves the desk’s link \u2014 everything (data, design, logic) is inside it.</p>
     <h3>How to update the site</h3>
-    <p>Edit or replace <span class="kbd">index.html</span> in the repository (Add file \u2192 Upload files, keeping the same name) and commit. GitHub Pages redeploys the same link automatically within a couple of minutes.</p>
+    <p>Edit or replace <span class="kbd">BEATBytes.html</span> in the repository (Add file \u2192 Upload files, keeping the exact filename) and commit. GitHub Pages redeploys the same link automatically within a couple of minutes; hard-refresh (Ctrl+F5) to bypass a cached copy.</p>
     <h3>Pointers for the Qlik integration</h3>
     <p>1. All content sits in the <span class="kbd">DATA</span> object near the top of the script \u2014 <span class="kbd">DATA.bytes</span> (id, theme, topic, title, text, template/chart flags) and <span class="kbd">DATA.queues</span> (rotation order per day).<br>
     2. Figure placeholders are <span class="kbd">[\u2026 \u2013 update]</span> brackets and <span class="kbd">x</span> tokens inside byte text; month tokens <span class="kbd">[Month]</span> / <span class="kbd">[current month]</span> are resolved client-side in <span class="kbd">resolveTokens()</span> \u2014 wire Qlik values in there or replace text server-side at build time.<br>
