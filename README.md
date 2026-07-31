@@ -2,3 +2,4 @@ BEATBytes is the desk's daily one-paragraph note to electronic trading clients, 
 
 Direct link to the console: https://shankkurra.github.io/BEATBytes/BEATBytes.html
 
+To edit the code directly, click the BEATbytes.html which will take you to the code
