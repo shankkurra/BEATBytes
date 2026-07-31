@@ -1,1 +1,1 @@
-# BEATBytes
+BEATBytes is the desk's daily one-paragraph note to electronic trading clients, sent at 10:30 via Bloomberg chat. This console holds the full curated library, tells you exactly what to send today, and keeps a shared send log so the whole team sees the same rotation.
